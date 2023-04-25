@@ -1,0 +1,94 @@
+.footer_box {
+    padding: 0 4vw;
+    background-color: #fff;
+    h4 {
+        font-weight: inherit;
+        font-size: 4.2vw;
+        padding: 1.84vh 0;
+        position: relative;
+        span{
+            font-weight: bolder;
+        }
+    }
+    h4::after{
+        content: "";
+        box-sizing: border-box;
+        display: inline-block;
+        width: 100vw;
+        height: 0.2px;
+        background-color: #cecece;
+        position: absolute;
+        left: -4vw;
+        bottom: 0vw;
+    }
+
+    .footerTop {
+        width: 96vw;
+        height: 10vw;
+        line-height: 10vw;
+        padding-left: 4vw;
+        font-size: 5vw;
+        font-weight: 500;
+        border-bottom: 2px solid rgb(186, 176, 176);
+    }
+
+    .footerCent {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        li {
+            list-style: none;
+            width: 47%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-top: 3.7vh;
+
+            img {
+                width: 100%;
+            }
+
+            .msg_box {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                font-size: 3.73vw;
+                padding-left: 2.13vw;
+
+                .ul_title {
+                    padding-bottom: 0.3vh;
+                    width: 100%;
+
+                    span {
+                        display: inline-block;
+                        width: 100%;
+                        white-space: nowrap;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                    }
+                }
+
+                .ul_price {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .price_original {
+                        font-size: 3.46vw;
+                        color: #444;
+                    }
+
+                    .price_discount {
+                        font-size: 3.2vw;
+                        color: #ccc;
+                        text-decoration: line-through;
+                        padding-left: 1.33vw;
+                    }
+                }
+            }
+        }
+    }
+  
+}

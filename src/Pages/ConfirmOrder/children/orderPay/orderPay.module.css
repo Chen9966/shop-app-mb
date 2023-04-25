@@ -1,0 +1,28 @@
+.pay{
+  box-sizing: border-box;
+  padding-left: 1rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  
+}
+.pay ul{
+    list-style: none;
+}
+.pay ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1rem;
+    height: 2.5rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+.pay ul li:last-child{
+    border: none;
+  }
+.pay ul li span{
+    color: #444444;
+}
+.pay ul li span:last-child{
+    font-size: .6rem;
+  }
+

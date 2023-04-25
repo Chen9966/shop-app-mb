@@ -1,0 +1,60 @@
+.box{
+    margin-top: 3vw;
+    background-color: white;
+}
+
+.footerTop{
+    width: 96vw;
+    height: 10vw;
+    line-height: 10vw;
+    padding-left: 4vw;
+    font-size: 5vw;
+    font-weight: 500;
+    border-bottom: 2px solid rgb(186, 176, 176);
+}
+.footerCent{
+    width: 100vw;
+    /* height: 200vw; */
+    margin-bottom: 20vw;
+}
+.titles{
+    width: 40vw;
+    overflow: hidden;
+    white-space: nowrap;
+   text-overflow: ellipsis;
+}
+.footerCent .list{
+    margin-left: 4vw;
+    margin-right: 4vw;
+    list-style: none;
+    font-size: 4vw;
+    width: 90vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.lis{
+    margin-top: 6vw;
+    width: 40vw;
+    height: 50vw;
+}
+.goods{
+    width: 30vw;
+    height: 30vw;
+}
+.sandian{
+    margin-top: 2vw;
+    width: 6vw;
+    height: 6vw;
+}
+.texts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 4vw;
+}
+.spans{
+    margin-left: 1vw;
+    color: gray;
+    text-decoration: line-through;
+}

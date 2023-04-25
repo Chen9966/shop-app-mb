@@ -1,0 +1,66 @@
+.Rules {
+    padding: 14px;
+    width: calc(100% - 16px - 18px);
+    border-bottom: 10px solid #f5f4f9;
+
+    .cell {
+        position: relative;
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 3px;
+        overflow: hidden;
+        color: #323233;
+        font-size: 14px;
+        line-height: 24px;
+        background-color: #fff;
+
+        .cell_title {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            flex: 1;
+
+            span {
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .cell::after {
+        position: absolute;
+        box-sizing: border-box;
+        content: ' ';
+        pointer-events: none;
+        right: 16px;
+        bottom: 0;
+        left: 16px;
+        border-bottom: 1px solid #ebedf0;
+        transform: scaleY(.5);
+    }
+
+    table,
+    th,
+    td {
+        text-align: center;
+        padding: 4px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+
+        tbody {
+            display: table-row-group;
+            vertical-align: middle;
+            border-color: inherit;
+
+            tr:nth-child(odd) {
+                background-color: #f5f4f9;
+            }
+        }
+
+    }
+}

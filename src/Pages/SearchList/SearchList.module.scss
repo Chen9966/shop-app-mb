@@ -1,0 +1,60 @@
+.searchMain {
+    .dropdown_bar {
+        user-select: none;
+        box-shadow: 1px 2px 12px rgb(100 101 102 / 12%)
+    }
+
+    ul {
+        display: flex;
+        padding: 1rem;
+        flex-wrap: wrap;
+
+        li {
+            list-style: none;
+            box-sizing: border-box;
+            width: calc(100% / 2);
+            font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+            padding: 0.5rem;
+
+            img {
+                width: 100%;
+            }
+
+            p {
+                margin-top: 0.2rem;
+                font-weight: 700;
+                color: #30333f;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+            }
+
+            div {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin-top: 0.5rem;
+                em{
+                    font-size: 0.15rem;
+                }
+                em,i{
+                    font-style: normal;
+                    font-weight: 700;
+                }
+                label{
+                    color: #7f7f8e;
+                }
+            }
+        }
+    }
+   
+}
+.active{
+    color: red;
+}
+.flag{
+    text-align: center;
+    font-size: 0.8rem;
+    color: #828291;
+    margin-top: 1rem;
+}

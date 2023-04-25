@@ -1,0 +1,43 @@
+.box{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #f0f0f0;
+}
+.box main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vw;
+}
+.box main ul{
+    padding: 0 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    margin-bottom: 1.84vh;
+}
+.box main ul .bot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.8vh 0;
+    position: relative;
+    font-size: 4.5vw;
+    border-bottom: 1px solid rgb(206, 206, 206);
+}
+
+.box main ul .bot .p1{
+    color: rgb(167, 159, 159);
+    display: inline-block;
+}
+.box main .info img{
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+}
+.box main .info .qr{
+    width: 8vw;
+    height: 8vw;
+    background-color: gray;
+}

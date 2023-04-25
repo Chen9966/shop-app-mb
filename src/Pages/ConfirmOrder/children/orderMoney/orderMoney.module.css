@@ -1,0 +1,15 @@
+.money{
+    height: 11rem;
+    box-sizing: border-box;
+    padding: 1rem .6rem;
+    background-color: #fff;
+}
+.money ul li{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: .3rem 0;
+}
+.money ul li .fact{
+    color: #f00;
+}

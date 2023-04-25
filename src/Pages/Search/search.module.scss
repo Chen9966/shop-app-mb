@@ -1,0 +1,82 @@
+.Search {
+    width: 100vw;
+    font-family: helvetica, Arial, "\9ED1\4F53", sans-serif;
+
+    .Search_input {
+        display: flex;
+        padding: 1rem 0 1rem 0.5rem;
+        box-sizing: border-box;
+
+        .search_content {
+            position: relative;
+
+            input {
+                width: 72vw;
+                height: 2.5rem;
+                padding-left: 3rem;
+                background-color: #f5f5f9;
+                border: none;
+                border-radius: 19px;
+                font-size: 4vw;
+                color: inherit;
+                font: inherit;
+                overflow: visible;
+                outline: none;
+            }
+
+            span {
+                font-size: 4vw;
+                padding-left: 0.5rem;
+                line-height: 2.5rem;
+                font-weight: bold;
+                font-family: "Arial", "Microsoft YaHei", "黑体", "宋体", sans-serif;
+            }
+        }
+    }
+
+    .search_record {
+        padding: 0.5rem;
+        box-sizing: border-box;
+
+        .search_history {
+            max-height: 15rem;
+            overflow: hidden;
+
+            .history_top {
+                position: relative;
+              
+            }
+            
+
+
+        }
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 0.5rem;
+
+        li {
+            padding: 0 0.4rem;
+            margin-right: 0.3rem;
+            margin-bottom: 0.3rem;
+            height: 2rem;
+            line-height: 2rem;
+            background-color: #f5f5f9;
+            color: #5c616f;
+            border-radius: 2px;
+            list-style: none;
+        }
+    }
+    .icons {
+        position: absolute;
+        top: 125px;
+        right: 0.5rem;
+        font-size: 20px;
+        display: inline-block;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+    }
+    
+}

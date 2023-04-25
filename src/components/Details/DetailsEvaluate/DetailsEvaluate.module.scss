@@ -1,0 +1,97 @@
+.Evaluate {
+    padding: 14px;
+    width: calc(100% - 16px - 18px);
+    border-bottom: 10px solid #f5f4f9;
+
+    .cell {
+        padding: 3px;
+        position: relative;
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        overflow: hidden;
+        color: #323233;
+        font-size: 14px;
+        line-height: 24px;
+        background-color: #fff;
+
+        .cell_title,
+        .cell_value {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            flex: 1;
+        }
+
+        .cell_title {
+            span {
+                font-size: 15px;
+                font-weight: 700;
+            }
+        }
+
+        .cell_value {
+            position: relative;
+            overflow: hidden;
+            color: #969799;
+            text-align: right;
+            vertical-align: middle;
+            word-wrap: break-word;
+
+            span {
+                font-size: 12px;
+            }
+        }
+    }
+
+    .ul_Evaluate {
+        padding: 4px 9px;
+        display: flex;
+        justify-content: space-between;
+
+        li {
+            width: 80px;
+            background-color: #f5f4f9;
+            padding: 4px 0;
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            color: #2f3640;
+            list-style: none;
+
+            p {
+                padding: 3px 4px;
+            }
+        }
+    }
+   
+}
+.ul_popup {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    background-color: #f5f4f9;
+    overflow: scroll;
+    padding: 0 9px;
+
+    li {
+        background-color: white;
+        margin: 1px;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 12px;
+        color: #2f3640;
+        list-style: none;
+
+        div {
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+        }
+        p:nth-child(4) {
+            color: #ccc
+        }
+    }
+}

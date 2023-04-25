@@ -1,0 +1,54 @@
+.Particulars {
+    padding: 14px;
+    width: calc(100% - 16px - 18px);
+    border-bottom: 10px solid #f5f4f9;
+
+    .cell {
+        padding: 3px;
+        position: relative;
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        overflow: hidden;
+        color: #323233;
+        font-size: 14px;
+        line-height: 24px;
+        background-color: #fff;
+
+        .cell_title {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            flex: 1;
+
+            span {
+                font-size: 20px;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .cell::after {
+        position: absolute;
+        box-sizing: border-box;
+        content: ' ';
+        pointer-events: none;
+        right: 16px;
+        bottom: 0;
+        left: 16px;
+        border-bottom: 1px solid #ebedf0;
+        transform: scaleY(.5);
+    }
+
+    ul {
+        padding: 0 9px;
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            margin-bottom: 3px;
+            list-style: none;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

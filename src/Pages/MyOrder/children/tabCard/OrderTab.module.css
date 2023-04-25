@@ -1,0 +1,54 @@
+.cards{
+    background-color: #fff;
+}
+.Info{
+    list-style: none;
+}
+.Info li{
+    height: 46vw;
+    font-size: 6vw;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+    border-bottom: 2px solid rgb(210, 204, 204) ;
+}
+.Info li .imgs{
+    width: 20vw;
+    height: 20vw;
+}
+.Info li .pp1{
+    width: 60vw;
+    display: inline-block;
+    margin-left: 2vw;
+    vertical-align: top;
+}
+.Info li .colors{
+    display: inline-block;
+    width: 60vw;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 5vw;
+    color: gray;
+}
+.Info li .pp1 .sp1{
+    display: inline-block;
+    width: 60vw;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-weight: 600;
+    /* margin-right: 24vw; */
+}
+.Info li .pp1 .sp2{
+    color: red;
+    font-weight: 500;
+}
+.sp3{
+    display: inline-block;
+    width: 36vw;
+    /* margin-right: 16vw; */
+}
+.icon{
+    margin-top: 2vw;
+    text-align: right;
+}

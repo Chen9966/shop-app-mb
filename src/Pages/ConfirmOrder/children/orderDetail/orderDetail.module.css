@@ -1,0 +1,57 @@
+.detail{
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+.detail ul {
+    list-style: none;
+}
+.detail .content{
+    display: flex;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 1rem;
+}
+.detail .content .imgs{
+    width: 14vw;
+}
+.detail .content .text{
+    position: relative;
+    margin-left: .5rem;
+    width: 80%;
+}
+.detail .content .text .name{
+    margin-bottom: .6rem;
+    width: 70%;
+    font-size: 0.8rem;
+}
+
+.detail .content .text .row{
+    font-size: 0.5rem;
+    color: #b6b6b6;
+}
+.detail .content .text .price_wrap{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.detail .content .text .price_wrap span{
+    font-size: 0.5rem;
+}
+.detail .content .text .price_wrap .price{
+    color: #f00;
+}
+.detail .content .text .price_wrap .count{
+    color: #b5b5b5;
+    text-align: right;
+}
+.detail .both{
+    text-align: right;
+    font-size: .8rem;
+    color: #b0b0b0;
+}
+.detail .both span{
+    color: #f00;
+}

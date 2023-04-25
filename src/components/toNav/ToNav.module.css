@@ -1,0 +1,21 @@
+.topbox{
+    position: relative;
+    background-color: #353535;
+    width: 100vw;
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    line-height: 8vw;
+}
+.back{
+    margin-left: 4vw;
+    width: 4vw;
+    height: 4vw;
+}
+.text{
+    width: 86vw;
+    font-size: 4vw;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}

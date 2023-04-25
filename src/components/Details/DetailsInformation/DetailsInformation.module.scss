@@ -1,0 +1,64 @@
+.Information {
+    padding: 14px;
+    width: calc(100% - 16px - 18px);
+    border-bottom: 10px solid #f5f4f9;
+
+    .cell {
+        position: relative;
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        padding: 3px;
+        overflow: hidden;
+        color: #323233;
+        font-size: 14px;
+        line-height: 24px;
+        background-color: #fff;
+
+        .cell_title {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            flex: 1;
+
+            span {
+                font-size: 16px;
+                font-weight: 700;
+            }
+        }
+
+    }
+
+    .cell::after {
+        position: absolute;
+        box-sizing: border-box;
+        content: ' ';
+        pointer-events: none;
+        right: 16px;
+        bottom: 0;
+        left: 16px;
+        border-bottom: 1px solid #ebedf0;
+        -webkit-transform: scaleY(.5);
+        transform: scaleY(.5);
+    }
+
+    ul {
+        padding: 0 9px;
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+            list-style: none;
+            margin-bottom: 3px;
+
+            p {
+                font-size: 14px;
+                font-weight: 700;
+            }
+
+            span {
+                font-size: 12px;
+                color: #2f3640;
+            }
+        }
+    }
+}

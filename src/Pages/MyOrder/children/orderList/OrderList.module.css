@@ -1,0 +1,8 @@
+.btn{
+    width: 40vw;
+    height: 13vw;
+    font-size: 5vw;
+    background-color: white;
+    border: 1px solid rgb(156, 152, 152);
+    color: black;
+}

@@ -1,0 +1,26 @@
+.Info{
+    list-style: none;
+}
+.Info li{
+    height: 30vw;
+    font-size: 6vw;
+    margin-bottom: 4vw;
+    border-bottom: 2px solid rgb(210, 204, 204) ;
+}
+.Info li .pp1 .sp1{
+    font-weight: 600;
+    margin-right: 40vw;
+}
+.Info li .pp1 .sp2{
+    color: red;
+    font-weight: 500;
+}
+.sp3{
+    display: inline-block;
+    width: 36vw;
+    margin-right: 16vw;
+}
+.icon{
+    margin-top: 2vw;
+    text-align: right;
+}

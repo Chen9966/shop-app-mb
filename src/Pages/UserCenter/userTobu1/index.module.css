@@ -1,0 +1,41 @@
+
+.top{
+    background: url('../../../assets/usercard/userimage.jpg');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    width: 100vw;
+    height: 26vw;
+    display: flex;
+    align-items: center;
+}
+
+.conten{
+    width: 40vw;
+    height: 14vw;
+    margin: 0 auto;
+}
+.conten .btn{
+    width: 40vw;
+    color: white;
+    height: 10vw;
+    font-size: 4vw;
+    border: 0.1vw solid white;
+    background-color:transparent;
+}
+
+.topbot{
+    width: 92vw;
+    height: 10vw;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    line-height: 10vw;
+    font-size: 4vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    
+}
+.topbot img{
+    width: 4vw;
+    height: 4vw;
+}

@@ -1,0 +1,104 @@
+.Login {
+    padding: 0 8vw;
+}
+
+.bgi {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: -1;
+}
+
+.bgi img {
+    width: 100vw;
+}
+
+.navs {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3vh;
+
+}
+
+.navs div {
+    width: 4.53vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 0.1rem solid white;
+    padding: 0.5vh;
+}
+
+.navs div i {
+    font-size: 4.53vw;
+}
+
+.navs p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 14.66vw;
+    font-size: 4.53vw;
+    border: 0.1rem solid white;
+    padding: 0.5vh 0;
+    border-radius: 2rem;
+}
+
+.mains {
+    position: relative;
+    margin-top: 14.7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mains div {
+    margin-top: 5.33vw;
+    padding: 1.23vh 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    font-size: 4vw;
+}
+
+.mains div i {
+    color: #444;
+}
+
+.mains div input {
+    border: none;
+    outline: none;
+    margin-left: 5.3vw;
+    font-size: 4vw;
+}
+
+.mains button {
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.1vh;
+    border: none;
+    outline: none;
+    background-color: rgb(19, 18, 18);
+    color: white;
+    width: 80vw;
+    height: 4.3vh;
+    border-radius: 0.2rem;
+    font-size: 4.5vw;
+}
+
+
+.mains .pp1 {
+    font-size: 3.2vw;
+    color: #444;
+    position: absolute;
+    right: 1vw;
+    bottom: 0;
+    transform: translate(0, 200%);
+    text-decoration: underline;
+}

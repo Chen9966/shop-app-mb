@@ -1,0 +1,25 @@
+.payCenter {
+   width: 100%;
+   height: 100vh;
+   height: calc(100vh - var(--vh-offset, 0px));
+   background-color: #f0f0f0;
+}
+.zhifu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem auto 0;
+    width: 90vw;
+    height: 3rem;
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 7px;
+}
+.zhifu p{
+    font-size: .8rem;
+    color: #4b4b4b;
+    line-height: 1rem;
+}
+.zhifu span{
+    font-size: 1.2rem;
+}

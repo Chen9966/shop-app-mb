@@ -1,0 +1,63 @@
+.Selected {
+    padding: 14px;
+    width: calc(100% - 16px - 18px);
+    border-bottom: 10px solid #f5f4f9;
+
+    .cell {
+        position: relative;
+        display: flex;
+        box-sizing: border-box;
+        width: 100%;
+        overflow: hidden;
+        color: #323233;
+        font-size: 14px;
+        line-height: 24px;
+        background-color: #fff;
+        padding: 3px;
+
+        .cell_title,
+        .cell_value {
+            -webkit-box-flex: 1;
+            -webkit-flex: 1;
+            flex: 1;
+        }
+
+        .cell_title {
+            span {
+                font-size: 15px;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .van-cell::after {
+        position: absolute;
+        box-sizing: border-box;
+        content: ' ';
+        pointer-events: none;
+        right: 16px;
+        bottom: 0;
+        left: 16px;
+        border-bottom: 1px solid #ebedf0;
+        -webkit-transform: scaleY(.5);
+        transform: scaleY(.5);
+    }
+
+    ul {
+        padding: 0 9px;
+        display: flex;
+        flex-wrap: wrap;
+
+        li {
+            width: calc((100% / 3) - 6px);
+            margin: 3px;
+            list-style: none;
+
+            img {
+                width: 100%;
+                border-style: none;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,25 @@
+.topbox{
+    position: relative;
+    /* background-color: #353535; */
+    background-color: #fff;
+    width: 100vw;
+    height: 16vw;
+    display: flex;
+    align-items: center;
+    line-height: 12vw;
+}
+.back{
+    margin-top: 6vw;
+}
+.back svg{
+    margin-left: 4vw;
+    width: 6vw;
+    height: 6vw;
+}
+.text{
+    width: 76vw;
+    font-size: 5vw;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}

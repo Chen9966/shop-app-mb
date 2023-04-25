@@ -1,0 +1,118 @@
+.register{
+    padding: 0 8vw;
+}
+.register .nav{
+    position: relative;
+    margin-top: 3vh;
+    color: black;
+}
+.register .nav .backlf{
+    width: 5vw;
+    display: inline-block;
+    font-size: 5vw;
+    margin-right: 34vw;
+}
+.register .nav .regi{
+    font-size: 4.53vw;
+}
+
+.main{
+    margin-top: 4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.main div{
+    margin-top: 5.33vw;
+    padding: 1.23vh 0;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    font-size: 4vw;
+}
+.main div input{
+    border: none;
+    outline: none;
+    margin-left: 5.3vw;
+    font-size: 4vw;
+}
+.main .email{
+    position: relative;
+}
+.main .email p{
+    font-weight: bolder;
+    color: red;
+    position: absolute;
+    bottom: 0;
+    left: 9.3vw;
+    transform: translate(0,110%);
+}
+.main .message{
+    position: relative;
+}
+.main .message .mesbtn{
+    width: 20.2vw;
+    height: 4vw;
+    font-size: 3.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: rgb(126, 122, 122);
+    border-radius: 1rem;
+}
+.main .message p{
+    font-weight: bolder;
+    color: red;
+    position: absolute;
+    bottom: 0;
+    left: 9.3vw;
+    transform: translate(0,110%);
+}
+.main .phonMessage{
+    position: relative;
+}
+.main .phonMessage p{
+    font-weight: bolder;
+    color: red;
+    position: absolute;
+    bottom: 0;
+    left: 9.3vw;
+    transform: translate(0, 110%);
+}
+.main .btn{
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6vh;
+    border: none;
+    outline: none;
+    color: white;
+    width: 80vw;
+    height: 4.3vh;
+    border-radius: 0.2rem;
+    font-size: 4.5vw;
+    background-color: rgb(19, 18, 18);
+  
+}
+.footers{
+    display: flex;
+    flex-direction: column;
+    font-size: 3.2vw;
+}
+.footers p{
+    margin-top: 1.23vh;
+}
+.footers p:first-of-type{
+    color: #666;
+}
+.footers p a{
+    color: #cc0000;
+    text-decoration: underline;
+    margin-right: 2.66vw;
+}

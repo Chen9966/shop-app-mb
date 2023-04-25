@@ -1,0 +1,44 @@
+.Search_top {
+    position: relative;
+    height: 3.3rem;
+    line-height: 3.3rem;
+    text-align: center;
+    background-color: #fff;
+    display: flex;
+
+    .leftOutlined {
+        position: 'absolute';
+        // flex: 2;
+        height: '30px';
+        margin-top: 10px;
+        // margin-left: -30px;
+        display: inline-block;
+        font: normal normal normal 14px/1 vant-icon;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .leftOutlined::before {
+        content: '\F008';
+    }
+
+    .appstoreOutlined {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 30px;
+        height: 30px;
+        right: 0.5rem;
+        flex: 2;
+
+    }
+
+    .spanSearch {
+        font-size: 1.3rem;
+        color: #444a53;
+        flex: 6;
+        // margin-left: -70px;
+        // text-align: center;
+    }
+}

@@ -1,0 +1,48 @@
+
+.top{
+    background: url('../../../assets/usercard/userimage.jpg');
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    width: 100vw;
+    height: 26vw;
+    display: flex;
+    align-items: center;
+}
+.xinxi{
+    display: flex;
+}
+.leftImgs img{
+    width: 14vw;
+    height: 14vw;
+    margin-left: 4vw;
+    border-radius: 50%;
+}
+.text{
+    width: 30vw;
+    color: white;
+    font-size: 4.4vw;
+    margin-left: 2vw;
+}
+.rightImgs{
+    margin-left: 36vw;
+}
+.rightImgs img{
+    width: 5vw;
+    height: 5vw;
+}
+.topbot{
+    width: 92vw;
+    height: 10vw;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    line-height: 10vw;
+    font-size: 4vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    
+}
+.topbot img{
+    width: 4vw;
+    height: 4vw;
+}
